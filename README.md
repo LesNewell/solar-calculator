@@ -6,14 +6,22 @@ Simulates the performance of a solar installation with optional battery storage.
 Installation
 ------------
 
-Install Python. If your OS does not include Python you can download it here: https://www.python.org/downloads/
+### Windows release
+There is a Windows release available which includes a built in Python interpreter. Take a look at the releases page.
+To use the release version, simply unzip solar.zip and run solar.exe. Note that the realeas may well not be the most recent version.
 
-From a terminal use:
+### Windows and other operating systems
+
+Install Python if you don't already have a copy installed. If you are installing on Windows make sure you enable 'Add python.exe to PATH' when you run the installer.
+
+
+From a terminal enter:
 ```
-pip install pysimplegui
+pip install pysimplegui iso8601
 ```
-Most of the other libraries needed by solar sim should come as standard with Python
-Now you can simply run solar.py:
+Most of the other libraries needed by solar sim should come as standard with Python.
+
+Download the Git repository, navigate to the directory wher you downloaded it and run solar.py:
 ```
 python solar.py
 ```
