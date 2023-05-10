@@ -47,7 +47,5 @@ If you are a data hoarder and have full hourly or half hourly historical data, t
 Storage strategies
 ------------------
 
-Currently there is only one storage strategy - 'Rules'. This lets you define rules for when to charge/discharge the battery. In the future extra strategies may be added. For instance it would be interesting to add a machine learning based strategy that tries to automatically optimise storage for traiffs that are based on grid pricing.
-
-For more information on strategies, look at the text files in the strategies folder.
+Currently there is only one storage strategy - 'Rules'. This lets you define rules for when to charge/discharge the battery. In the future extra strategies may be added. For instance it would be interesting to add a machine learning based strategy that tries to automatically optimise storage for tariffs that are based on grid pricing. See the [rules strategy readme](strategies/README-RULES.md) for more detail.
 
