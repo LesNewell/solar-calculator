@@ -312,8 +312,9 @@ class strategy:
                 self.loadReset = 1
             p = 20 #20kW max load
             for load in self.loads:
-                if p > 0:
-                    p, rate=load.Run(month, p, self.inverter)
+                rate = 0
+                if p > 0 and not load.solarOnly:
+                    p, rate=load.Run(month, hour, p, self.inverter)
                 if load.name:
                     row[load.name] = rate
             power += p - 20
@@ -326,7 +327,7 @@ class strategy:
             for load in self.loads:
                 rate = 0
                 if power > 0 and solar > 0:
-                    power, rate = load.Run(month, power, self.inverter)
+                    power, rate = load.Run(month, hour, power, self.inverter)
                 if load.name:
                     row[load.name] = rate
 

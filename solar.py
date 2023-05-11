@@ -281,7 +281,8 @@ class MainWindow(forms.Form):
 
         dynLoad = 0
         for load in self.strategy.loads:
-            dynLoad += load.capacity / hourScale
+            if not load.solarOnly and load.inUsage:
+                dynLoad += load.capacity / hourScale
 
         rowCount = 0
         m = date.month

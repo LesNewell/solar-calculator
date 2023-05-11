@@ -50,7 +50,7 @@ class TimeRange:
             elif c == ",":
                 if not prev or not cur:
                     raise SolarException("Unexpected , in time range")
-                _ranges.append([self._ToTime(prev), self._ToTime(cur)])
+                self._ranges.append([self._ToTime(prev), self._ToTime(cur)])
                 prev = None
                 cur = ""
             else:

@@ -40,9 +40,9 @@ Rules are tested in order from top to bottom. The first rule to match the month,
 
 These are loads that can be switched on when excess solar is available.
 
-### Month
+### Month and time range
 
-This is a range of months in the same format as is used for rules.
+These work the same the same as the rules.
 
 ### Min power
 
@@ -59,6 +59,14 @@ The total kWh needed by this load in each day. If not enough solar is available,
 ### Min battery
 
 In many cases you may have excess solar but not enough to run the minimum load requirement. In that case if the battery is above the min battery value (kWh), battery will be used to make up the difference. Usually this will result in the load being switched on for one half hour time slot then off for one or more time slots to allow the battery to be recharged. If left blank the battery is not used.
+
+### Solar only
+
+Do not try to top up during cheap rate. If not enough solar is available the kWh target may not be reached. With this enabled the load cannot be included in usage.
+
+### Included in usage
+
+The kWh value is deducted from your usage before the calculations are run. This should be enabled if your usage numbers are calculated from your utility bill.
 
 ### Name
 

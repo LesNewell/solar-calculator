@@ -145,7 +145,7 @@ class TimeFile():
         start = start.replace(microsecond = 0, second = 0, minute = 0)
         logging.info("Range available " + str(start) + " - " + str(self.data[len(self.data) - 1][2] ))
 
-        if days <= 1:
+        if days < 2:
             delta = timedelta(days = 1)
             ret = TimeFile.DAY
             start = start.replace(hour = 0)
@@ -365,6 +365,7 @@ class CsvFile(TimeFile):
         except PermissionError as exc:
             raise SolarException(fName + " is locked by another process")
             return
+        f.close()
         if len(values) < 2:
             raise SolarException("Not enough lines" + self._errfile)
         self.data = values

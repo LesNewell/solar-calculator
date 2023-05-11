@@ -8,7 +8,7 @@ Installation
 
 ### Windows release
 There is a Windows release available which includes a built in Python interpreter. Take a look at the releases page.
-To use the release version, simply unzip solar.zip and run solar.exe. Note that the realeas may well not be the most recent version.
+To use the release version, simply unzip solar.zip and run solar.exe. Note that the release may well not be the most recent version.
 
 ### Windows and other operating systems
 
