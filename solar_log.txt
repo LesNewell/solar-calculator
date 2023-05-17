@@ -3,68 +3,30 @@ Loading demo/Timeseries_50.825_-3.814_SA2_2kWp_crystSi_14_30deg_28deg_2015_2020.
 Range available 2015-01-01 00:00:00 - 2020-12-31 23:10:00
 Loading demo/Timeseries_50.825_-3.814_SA2_5kWp_crystSi_14_30deg_-63deg_2015_2020.json
 Range available 2015-01-01 00:00:00 - 2020-12-31 23:10:00
-Loading demo/Octopus intelligent south west.csv
-Range available 2023-05-11 00:00:00 - 2023-05-11 23:30:00
+Loading demo/octopus cosy south west.csv
+Skipped under size row in demo/octopus cosy south west.csv
+Range available 2023-05-17 00:00:00 - 2023-05-17 19:00:00
 Loading demo/octopus outgoing fixed.csv
-Range available 2023-05-11 00:00:00 - 2023-05-11 23:00:00
+Range available 2023-05-17 00:00:00 - 2023-05-17 23:00:00
 Loading demo/Yearly usage.csv
 Skipped under size row in demo/Yearly usage.csv
 Range available 2022-04-01 00:00:00 - 2023-03-01 00:00:00
 Loading demo/Daily usage working daytime.csv
 Skipped under size row in demo/Daily usage working daytime.csv
-Range available 2023-05-11 00:00:00 - 2023-05-11 23:00:00
+Range available 2023-05-17 00:00:00 - 2023-05-17 23:00:00
 Date          Usage     Solar     Imported  Import cost  Exported  Export profit  Battery cycles  Bill      
-31/01/2022    510.13    214.62    428.92    39.82        79.01     11.85          41.49           27.97     
-28/02/2022    513.37    334.85    397.44    37.85        161.64    24.25          38.52           13.61     
-31/03/2022    481.72    617.88    401.96    30.15        463.63    69.54          41.42           -39.40    
-30/04/2022    499.12    831.57    393.29    29.56        644.97    96.75          37.23           -67.19    
-31/05/2022    307.47    1032.20   380.18    28.51        1017.25   152.59         34.25           -124.07   
-30/06/2022    257.66    808.90    362.93    27.22        839.03    125.86         32.96           -98.64    
-31/07/2022    238.36    896.64    371.54    27.87        949.53    142.43         33.68           -114.56   
-31/08/2022    241.72    969.59    371.96    27.90        1015.26   152.29         34.29           -124.39   
-30/09/2022    284.81    573.64    366.32    27.47        588.93    88.34          35.66           -60.87    
-31/10/2022    323.33    438.10    382.16    28.66        434.84    65.23          38.17           -36.56    
-30/11/2022    451.83    295.31    391.96    30.96        178.31    26.75          40.25           4.21      
-31/12/2022    496.09    193.52    424.20    42.05        71.20     10.68          38.72           31.37     
-Year end      4605.62   7206.82   4672.87   378.02       6443.60   966.54         446.62          -588.52   
-
-Output file created
-***** Run started *****
-Using cached file demo/Timeseries_50.825_-3.814_SA2_2kWp_crystSi_14_30deg_28deg_2015_2020.json
-Using cached file demo/Timeseries_50.825_-3.814_SA2_5kWp_crystSi_14_30deg_-63deg_2015_2020.json
-Using cached file demo/Octopus intelligent south west.csv
-Using cached file demo/octopus outgoing fixed.csv
-Using cached file demo/Yearly usage.csv
-Using cached file demo/Daily usage working daytime.csv
-Solar only loads cannot be included in usage
-***** Run started *****
-Using cached file demo/Timeseries_50.825_-3.814_SA2_2kWp_crystSi_14_30deg_28deg_2015_2020.json
-Using cached file demo/Timeseries_50.825_-3.814_SA2_5kWp_crystSi_14_30deg_-63deg_2015_2020.json
-Using cached file demo/Octopus intelligent south west.csv
-Using cached file demo/octopus outgoing fixed.csv
-Using cached file demo/Yearly usage.csv
-Using cached file demo/Daily usage working daytime.csv
-Intelligent loads must have a name
-***** Run started *****
-Using cached file demo/Timeseries_50.825_-3.814_SA2_2kWp_crystSi_14_30deg_28deg_2015_2020.json
-Using cached file demo/Timeseries_50.825_-3.814_SA2_5kWp_crystSi_14_30deg_-63deg_2015_2020.json
-Using cached file demo/Octopus intelligent south west.csv
-Using cached file demo/octopus outgoing fixed.csv
-Using cached file demo/Yearly usage.csv
-Using cached file demo/Daily usage working daytime.csv
-Date          Usage     Solar     hj        Imported  Import cost  Exported  Export profit  Battery cycles  Bill      
-31/01/2022    510.13    214.62    279.00    707.92    60.75        79.01     11.85          41.49           48.90     
-28/02/2022    513.37    334.85    252.00    649.44    56.75        161.64    24.25          38.52           32.51     
-31/03/2022    481.72    617.88    279.00    680.96    51.07        463.63    69.54          41.42           -18.47    
-30/04/2022    499.12    831.57    270.00    663.29    49.81        644.97    96.75          37.23           -46.94    
-31/05/2022    307.47    1032.20   279.00    659.18    49.44        1017.25   152.59         34.25           -103.15   
-30/06/2022    257.66    808.90    270.00    632.93    47.47        839.03    125.86         32.96           -78.39    
-31/07/2022    238.36    896.64    279.00    650.54    48.79        949.53    142.43         33.68           -93.64    
-31/08/2022    241.72    969.59    279.00    650.96    48.82        1015.26   152.29         34.29           -103.47   
-30/09/2022    284.81    573.64    270.00    636.32    47.72        588.93    88.34          35.66           -40.62    
-31/10/2022    323.33    438.10    279.00    661.16    49.59        434.84    65.23          38.17           -15.64    
-30/11/2022    451.83    295.31    270.00    661.96    51.21        178.31    26.75          40.25           24.46     
-31/12/2022    496.09    193.52    270.00    694.20    62.30        71.20     10.68          38.72           51.62     
-Year end      4605.62   7206.82   3276.00   7948.87   623.72       6443.60   966.54         446.62          -342.82   
+31/01/2022    510.13    214.62    408.13    97.85        75.99     11.40          49.22           86.45     
+28/02/2022    513.37    334.85    385.37    93.60        167.27    25.09          43.38           68.51     
+31/03/2022    481.72    617.88    239.10    60.99        326.67    49.00          33.63           11.99     
+30/04/2022    499.12    831.57    139.73    39.14        412.36    61.85          29.66           -22.71    
+31/05/2022    307.47    1032.20   4.12      1.04         662.63    99.39          26.85           -98.35    
+30/06/2022    257.66    808.90    0.49      0.16         500.16    75.02          22.34           -74.86    
+31/07/2022    238.36    896.64    0.00      0.00         602.48    90.37          19.76           -90.37    
+31/08/2022    241.72    969.59    0.00      0.00         667.99    100.20         22.69           -100.20   
+30/09/2022    284.81    573.64    32.44     8.80         278.56    41.78          29.05           -32.99    
+31/10/2022    323.33    438.10    156.76    36.49        234.17    35.13          31.72           1.37      
+30/11/2022    451.83    295.31    348.52    82.48        154.41    23.16          43.37           59.32     
+31/12/2022    496.09    193.52    410.50    98.06        73.40     11.01          47.21           87.05     
+Year end      4605.62   7206.82   2125.16   518.63       4156.10   623.41         398.87          -104.79   
 
 Output file created

@@ -26,6 +26,8 @@ Download the Git repository, navigate to the directory wher you downloaded it an
 python solar.py
 ```
 
+![Image](screenshots/main-window.png)
+
 Quick start
 -----------
 

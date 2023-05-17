@@ -1,3 +1,5 @@
+![Image](/screenshots/rules-window.png)
+
 # Using the 'rules' strategy
 
 This strategy simulates a hybrid inverter. You can specify when to charge/discharge the battery depending on a set uf rules. It also allow you to specify 'intelligent' loads that can be switched on when excess solar is available.
